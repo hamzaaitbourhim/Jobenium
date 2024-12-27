@@ -13,19 +13,18 @@ Jobenium is an automated job application tool designed to streamline your job-hu
 Each folder corresponds to a supported job board.
 
 ## Adding a New Job Board
-- 1. Create a new folder named after the job board.
-- 2. Add the Python script and configuration file for the new board.
-- 3. Follow the structure and methodology in existing folders.
+1. Create a new folder named after the job board.
+2. Add the Python script and configuration file for the new board.
+3. Follow the structure and methodology in existing folders.
 
 ## Future Plans
 - Support for more job boards like LinkedIn, Indeed, and Glassdoor.
-- Add machine learning-based job ranking and selection.
 - Real-time notifications for successful applications.
 
 ## Contributing
 Contributions are welcome! To contribute:
-- 1. Fork this repository.
-- 2. Create a branch for your feature (`git checkout -b feature-name`).
-- 3. Commit your changes (`git commit -m "Add a new feature"`).
-- 4. Push to your branch (`git push origin feature-name`).
-- 5. Create a pull request.
+1. Fork this repository.
+2. Create a branch for your feature (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -m "Add a new feature"`).
+4. Push to your branch (`git push origin feature-name`).
+5. Create a pull request.
