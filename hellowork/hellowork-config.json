@@ -1,0 +1,8 @@
+{
+    "email": "YOUR_EMAIL",
+    "password": "YOUR_PASSWORD",
+    "first_name": "YOUR_FIRST_NAME",
+    "last_name": "YOUR_LAST_NAME",
+    "keyword": "java",
+    "contract_type": "CDI" // CDI, CDD, Stage, Alternance, Travail_temp
+}
