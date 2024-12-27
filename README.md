@@ -1,77 +1,31 @@
-# Hellowork Automated Job Application Script
+# Jobenium
 
-This project automates job applications on [Hellowork](https://www.hellowork.com) using Selenium with undetected Chromedriver. It processes jobs based on specified criteria and applies to each one.
+Jobenium is an automated job application tool designed to streamline your job-hunting process. With Jobenium, you can automate applying to multiple job boards based on your preferences, saving you time and effort.
 
 ## Features
-- Automatically logs in to your Hellowork account.
-- Searches for jobs based on a specified keyword and contract type.
-- Iterates through job pages and applies to available jobs.
-- Handles already-applied scenarios gracefully.
-- Uses an external configuration file for sensitive data and customizable parameters.
+- **Platform Agnostic**: Automates applications for multiple job boards.
+- **Customizable**: Configure keywords, contract types, and personal information for tailored job searches.
+- **Secure**: Uses external configuration files to store sensitive data like credentials.
+- **Error Handling**: Detects and manages scenarios such as already-applied jobs.
+- **Extensible**: Designed to add support for new job boards easily.
 
-## Prerequisites
+## Structure
+Each folder corresponds to a supported job board.
 
-### 1. Install Python
-Make sure you have Python 3.8 or higher installed. You can download it from [python.org](https://www.python.org/).
+## Adding a New Job Board
+- 1. Create a new folder named after the job board.
+- 2. Add the Python script and configuration file for the new board.
+- 3. Follow the structure and methodology in existing folders.
 
-### 2. Install Required Libraries
-Install the required Python libraries using `pip`:
-```bash
-pip install selenium undetected-chromedriver
-```
+## Future Plans
+- Support for more job boards like LinkedIn, Indeed, and Glassdoor.
+- Add machine learning-based job ranking and selection.
+- Real-time notifications for successful applications.
 
-### 3. Hellowork Account
-You need a valid Hellowork account with your CV uploaded.
-
-## Files
-
-### 1. hellowork.py
-This is the main script that:
-- Reads configurations from hellowork-config.json.
-- Logs into your Hellowork account.
-- Searches and applies for jobs based on specified criteria.
-
-### 2. hellowork-config.json
-A configuration file that stores sensitive and customizable information (replace the placeholder values with your actual details).
-
-## Usage
-
-### Step 1: Clone the Repository
-Clone this repository to your local machine:
-```bash
-git clone https://github.com/YOUR_USERNAME/hellowork-job-application.git
-cd hellowork-job-application
-```
-
-### Step 2: Set Up the Configuration File
-Edit the hellowork-config.json file with your personal details:
-
-- `email`: Your Hellowork account email.
-- `password`: Your Hellowork account password.
-- `first_name`: Your first name.
-- `last_name`: Your last name.
-- `keyword`: The job keyword you want to search for (e.g., java).
-- `contract_type`: The type of contract to search for (e.g., CDI, CDD, Stage, Alternance, or Travail_temp).
-
-### Step 3: Run the Script
-Run the script using Python:
-```bash
-python hellowork.py
-```
-
-### Step 4: Monitor the Process
-Monitor the output in your terminal. The script will log:
-- Which job it is processing.
-- Whether the application was successful or if you already applied.
-
-## Notes
-- Ensure that your hellowork-config.json is properly configured before running the script.
-- The script uses driver.maximize_window() to ensure all elements are visible.
-
-## Troubleshooting
-If you encounter any issues:
-- Verify your credentials in hellowork-config.json.
-- Check if the required Python libraries are installed.
-- Ensure that the Hellowork website layout hasn't changed significantly.
-  
-Feel free to report issues or contribute to the project!
+## Contributing
+Contributions are welcome! To contribute:
+- 1. Fork this repository.
+- 2. Create a branch for your feature (`git checkout -b feature-name`).
+- 3. Commit your changes (`git commit -m "Add a new feature"`).
+- 4. Push to your branch (`git push origin feature-name`).
+- 5. Create a pull request.
