@@ -39,8 +39,8 @@ A configuration file that stores sensitive and customizable information (replace
 ### Step 1: Clone the Repository
 Clone this repository to your local machine:
 ```bash
-git clone https://github.com/YOUR_USERNAME/hellowork-job-application.git
-cd hellowork-job-application
+git clone https://github.com/hamzaaitbourhim/Jobenium.git
+cd Jobenium/hellowork
 ```
 
 ### Step 2: Set Up the Configuration File
