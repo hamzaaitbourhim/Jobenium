@@ -64,10 +64,6 @@ Monitor the output in your terminal. The script will log:
 - Which job it is processing.
 - Whether the application was successful or if you already applied.
 
-## Notes
-- Ensure that your hellowork-config.json is properly configured before running the script.
-- The script uses driver.maximize_window() to ensure all elements are visible.
-
 ## Troubleshooting
 If you encounter any issues:
 - Verify your credentials in hellowork-config.json.
